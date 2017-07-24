@@ -19,9 +19,9 @@ h4 {
   text-align: center;
 }
 
-/*.bio {
+.bio {
   display: none;
-}*/
+}
 
 .playerSelected, .playersAvailable {
  display: none;

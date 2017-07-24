@@ -10,7 +10,7 @@ function Player(playerName, bio)
 {
   this.playerName = playerName;
   this.bio = bio;
-};
+}
 
 var players = [];
 var newPlayer = new Player("Kaili","example bio");
@@ -44,5 +44,14 @@ $(document).ready(function() {
     $(".playersAvailable").show();
     $("#teamCaps").hide();
   });
-  
+
+  $("img/megan.jpg").click(function()
+  {
+      ("#player1Bio").show();
+  });
+  // $("bio#Player1bio").click() {
+  //   $("bio#Player1bio").show();
+  // }
+// });
+
 });
