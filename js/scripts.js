@@ -13,7 +13,7 @@ function Player(playerName, bio)
 };
 
 var players = [];
-var newPlayer = new Player("Kaili","example bio");a 
+var newPlayer = new Player("Kaili","example bio");
 players.push(newPlayer);
 var newPlayer1 = new Player("Parul","example bio");
 players.push(newPlayer1);
@@ -40,4 +40,5 @@ $(document).ready(function() {
     $(".team1Input").html(newTeam1.teamName);
     $(".team2Input").html(newTeam2.teamName);
   });
+  
 });
