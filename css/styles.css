@@ -7,9 +7,17 @@ img {
   margin-left: 25px;
 }
 
+img:hover {
+  cursor: pointer;
+}
+
 h3 {
   text-align: center;
 }
 h4 {
   text-align: center;
+}
+
+.bio {
+  display: none;
 }
