@@ -13,7 +13,7 @@ function Player(playerName, bio)
 };
 
 var players = [];
-var newPlayer = new Player("Kaili","example bio");a 
+var newPlayer = new Player("Kaili","example bio");
 players.push(newPlayer);
 var newPlayer1 = new Player("Parul","example bio");
 players.push(newPlayer1);
@@ -35,9 +35,13 @@ $(document).ready(function() {
     var team2NameValue = $("input#team2").val();
     var newTeam2 = new Team(team2NameValue);
 
-    console.log(newTeam1);
+    // console.log(newTeam1);
 
     $(".team1Input").html(newTeam1.teamName);
     $(".team2Input").html(newTeam2.teamName);
+
+    $(".playerSelected").show();
+    $(".playersAvailable").show();
+    $("#teamCaps").hide();
   });
 });
