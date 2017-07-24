@@ -44,14 +44,9 @@ $(document).ready(function() {
     $(".playersAvailable").show();
     $("#teamCaps").hide();
   });
-
-  $("img/megan.jpg").click(function()
+  $("#img2").click(function()
   {
-      ("#player1Bio").show();
+      ("#player2Bio").show();
   });
-  // $("bio#Player1bio").click() {
-  //   $("bio#Player1bio").show();
-  // }
-// });
 
 });
