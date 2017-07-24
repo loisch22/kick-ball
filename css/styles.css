@@ -1,0 +1,23 @@
+.jumbotron {
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  margin-left: 25px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+h3 {
+  text-align: center;
+}
+h4 {
+  text-align: center;
+}
+
+.bio {
+  display: none;
+}
