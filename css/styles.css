@@ -1,5 +1,6 @@
 .jumbotron {
   text-align: center;
+  background-color:
 }
 
 img {
@@ -18,6 +19,10 @@ h4 {
   text-align: center;
 }
 
-.bio {
+/*.bio {
   display: none;
+}*/
+
+.playerSelected, .playersAvailable {
+ display: none;
 }
